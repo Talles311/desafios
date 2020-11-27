@@ -1,3 +1,27 @@
+
 @charset "UTF-8";
 
+body {
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Verdana, Tahoma, sans-serif;   
+    background-color: #c5ebd6;  
+}
 
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+   
+   :root {
+
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa865bb;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+   
+    --fonte-padrao: 'Bebas Neue', cursive;
+    
+  /* lembrar de colocar formatação de fontes e padronizar site para margim 0 e paddind 0 */ 
+    
+   }
