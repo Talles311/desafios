@@ -21,7 +21,34 @@ body {
     --cor5: #063d1e;
    
     --fonte-padrao: 'Bebas Neue', cursive;
-    
-  /* lembrar de colocar formatação de fontes e padronizar site para margim 0 e paddind 0 */ 
-    
+       
    }
+
+* {
+   margin: 0%;
+   padding: 0px;
+}
+
+header {
+    
+    height: 150px;
+    width: auto;
+
+}
+
+ header h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 2em;  
+      text-align: center;  
+      padding-top: 10px;
+ } 
+
+ header p {
+        font-weight: normal;     
+        font-family: var(--fonte-padrao);
+        font-size: 1em; 
+        text-align: center;
+ }
+
+
+
