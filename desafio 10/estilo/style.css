@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
 
@@ -21,7 +21,7 @@
 
 body {
     background-color: var(--cor1);
-    font-family: 'Bebas Neue' sans-serif;         
+    font-family: var(--fonte-padrao), sans-serif;         
 }
 
 header {
@@ -57,6 +57,7 @@ nav {
 }
 
  nav a{
+       font-family: Arial, Helvetica, sans-serif;
        color: var(--cor0); 
        font-weight: normal; 
        font-size: 1.2em;
@@ -65,17 +66,64 @@ nav {
        font-weight: bold;
  }   
 
+
+main {
+     margin-top: 3px;
+     border-radius: 30px;
+}
+ 
 main article {
+        font-family: Arial, Helvetica, sans-serif;
         background-color: white;
         height: 98%; 
         max-width: 800px;  
         margin: auto;
         padding: 5px;
         text-align: justify;
+        border-radius: 10px;
     }    
 
-main > article > h1 {
-          background-image: linear-gradient( to right, var(--cor3), transparent); 
-
-
+main h1 {
+          background-image: linear-gradient( to right, var(--cor3), transparent);
+          padding-left: 10px; 
 }
+
+main h2 {
+    background-image: linear-gradient( to right, var(--cor3), transparent);
+    padding-left: 10px; 
+        
+}
+
+main p {
+      font-weight: normal;
+      text-indent: 30px;
+      line-height: 1.5em;
+      padding: 6px;
+}
+
+
+
+/* depois voltar para confirmar algumas coisas para footer */
+
+footer {
+    background-color: var(--cor5);
+    color: white;  
+    text-align: center;
+    padding: 20px;
+    font-size: 1.0em;
+    margin: 0px;
+ }
+ 
+ footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bolder;
+ }
+ 
+ footer a:hover {
+        text-decoration: underline;
+        color: var(--cor1);
+        transition-duration: 1.0s;
+ }
+
+
