@@ -52,7 +52,7 @@ header {
 
 nav {
     background-color: var(--cor5);
-    padding: 7px;
+    padding: 3px;
 
 }
 
@@ -138,3 +138,70 @@ footer {
  }
 
 
+
+
+
+div.video {
+     background-color: rgb(79, 105, 26);
+     margin: 0px -5px 30px -5px;
+     padding: 15px;
+     padding-bottom: 41%;
+     
+     position: relative;
+
+}
+
+div.video > iframe {
+        position: absolute;
+        margin: auto;
+        top: 5%;
+        left: 60%;
+        width: 30%;
+        height: 40%;
+}
+
+
+
+ /*
+
+ figure { width: 90%; min-width: 17.5em; margin:0 auto;}
+ figcaption { font: 120% sans-serif; text-align: center;}
+ .boxVideo {
+     position: relative;
+     padding-bottom: 56.25%; 
+     padding-top: 25px;
+     height:0 auto;
+     margin: auto;
+ }
+
+ .boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+******************************************************************8
+
+ /*
+
+ figure { width: 90%; min-width: 17.5em; margin:0 auto;}
+ figcaption { font: 120% sans-serif; text-align: center;}
+ .boxVideo {
+     position: relative;
+     padding-bottom: 56.25%; 
+     padding-top: 25px;
+     height: 0;
+     margin:0 auto;
+ }
+ 
+ .boxVideo iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+ */
