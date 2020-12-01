@@ -20,7 +20,7 @@
  }
 
 body {
-    background-color: var(--cor1);
+    background-color: lightgray;
     font-family: var(--fonte-padrao), sans-serif;         
 }
 
@@ -82,24 +82,19 @@ main img {
 }
 
 main {
+    background-color: white;
+    padding: 20px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 98%; 
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px black ;
     }
  
-main article {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        height: 98%; 
-        max-width: 800px;  
-        margin: auto;
-        padding: 5px;
-        text-align: justify;
-        border-radius: 10px;
-        box-shadow: 1px 1px 8px 1px black ;
-    }    
-
 main h1 {
           background-image: linear-gradient( to right, var(--cor3), transparent);
           padding-left: 10px; 
@@ -147,18 +142,23 @@ div.video > iframe {
 aside {
      background-color: white;
      margin: 0px -5px 0px -5px;
-
+     padding: 5px;
+     background-color: var(--cor2);
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+    text-align: center;
 }
 
 
 aside h3 {
       background-color: var(--cor4);
       color: white;
-      margin: auto;
+      margin: 0px -5px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
       padding: 10px;
-      
+      padding-top: 10px;  
+      margin-top: -5px;     
     }
 
 
